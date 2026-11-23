@@ -1,0 +1,13 @@
+//Algo de calcul de : aire = longueur * largeur ; périmètre = 2 * (longueur + largeur).
+
+variables : 
+longeur, largeur,aire,perimetre : reel;
+debut
+ecrire("Entrer la longueur");
+lire(longueur);
+ecrire("Entrer la largeur");
+lire(largeur);
+aire = longueur * largeur ;
+perimetre = 2 * (longueur + largeur);
+ecrire("l'aire est : ",aire," le primetre est : ",perimetre);
+fin;
